@@ -18,6 +18,7 @@ Break
 # Auto detect text files and perform LF normalization
 * text=auto
 This is a section
+
 This is important part of an section
 This is less important part of the section
 Some links in a Div
@@ -27,6 +28,7 @@ Unordered List Element 1
 Unordered List Element 2
 Unordered List Element 3
 Ordered list Element 1
+
 Ordered list Element 2
 Ordered list Element 3
 This is the footer
