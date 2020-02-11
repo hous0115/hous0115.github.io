@@ -17,6 +17,9 @@ bob@fakemail.com
 Jack
 Jack@fakemail.com
 1
+<title>Responsive CSS</title>
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+
 rob
 rob@fakemail.com
 All of the above are Division Heads. 
@@ -36,10 +39,10 @@ htmlThis is Elephant
 <html/img
 
  
-html This is Hawk
+<h1 style="color:blue;">This is Hawk
  
-This is Lion
+<html><h1 style="color:blue;">This is Lion
  
-This Snake
+html<h1 style="color:blue;"><This is Snake>
  
-This is Whale
+(html><h1 style="color:blue;">This is Whale
