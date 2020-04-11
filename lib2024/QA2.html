@@ -97,3 +97,15 @@ class "rotate-me"
 It rotates 5 times at intervals of 0.5s with "linear" transition using animation keyframes "spin"
 
 16) How would you include create an alert with string "I love JavaScript" using JavaScript?
+
+ Anw: let str = "I love JavaScript";
+
+let result = str.match(/Java(Script)/);
+
+alert( result[0] );     // JavaScript (full match)
+alert( result[1] );     // Script (first capturing group)
+alert( result.length ); // 2
+
+// Additional information:
+alert( result.index );  // 0 (match position)
+alert( result.input );  // I love JavaScript (source string)
