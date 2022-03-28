@@ -1,112 +1,138 @@
 <!DOCTYPE html>
-<html>
-<title>.My Website</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="">
-<style>
-body {font-family: "Times New Roman", Georgia, Serif;}
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display";
-  letter-spacing: 5px;
-}<img src="lion.jpg" alt="Image 1" width="300"  height="200">
-    <figure>
-                  
+<html lang="en-ca">
+<head id="head">
+  <title>CSS</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta charset="utf-8">
+</head>
 </style>
-<body>
+    </head>
+     <body style="background: url('img/circles-light.png')">
 
-<!-- Navbar (sit on top) -->
-<div class="">
-  <div class=" style="letter-spacing:4px;">
-    <a href="#home" class="-bar-item -button">Gourmet au Catering</a>
 
-    <!-- Right-sided navbar links. Hide them on small screens -->
-    <div class="w3-right -hide-small">
-      <a href="#about" class="-bar-item -button">About</a>
-      <a href="#menu" class="-bar-item -button">Menu</a>
-      <a href="#contact" class="-bar-item -button">Contact</a>
+
+
+
+
+<body id="body">
+ 
+    <div id="container" class="container">
+    <header class="site-header">
+      <div class="logo">
+        <img src="img/logo.png" alt="Logo">
+      </div>
+      <h1 id="head-title" class="head-title text">Title of Page</h1>
+
+      <nav id="Nav" style="background:#2bd3d9;">
+       <nav class="main-nav-container text desktop-nav clearfix">
+        <ul class="header-li">
+          <li>
+            <div id="home-li" class="header-li">
+              <a href="home">Home</a>
+            </div>
+          </li>
+          <li>
+            <div id="about-li" class="header-li">
+              <a href="about">About</a>
+            </div>
+          </li>
+          <li>
+            <div id="contact-li" class="header-li">
+              <a href="contact">Contact</a>
+            </div>
+          </li>
+          <li>
+            <div id="work-li" class="header-li">
+              <a href="work">Work</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
     </div>
-  </div>
-</div>
+  </header>
+ 
+  <main id="main" class="main container clearfix">
+    <article class="main-article">
 
-<!-- Header -->
-<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
-  <img class="w3-image" src="/w3images/hamburger.jpg" alt="Hamburger Catering" width="1600" height="800">
-  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
-    <h1 class="w3-xxlarge">Le Catering</h1>
-  </div>
-</header>
+      
+      <section id="sec-writ" class="main-sec">
+        <h2 id="main-head" class="text">Main Content Title</h2>
+        <p id="main-para-1" class="text"> 
+          Souffle bonbon sweet roll. Tootsie roll chocolate gum mies toffee topping jelly donut. Apple pie carrot cake apple pie lollipop chocolate lollipop. Gummibears sweet roll pastry cookie donut danish pudding sweet roll brownie. Fruitcake sweet roll pie liquorice danish sesame snaps dessert jelly beans. Pie topping cupcake caramels. Gingerbread gummies sugar plum powder biscuit jelly-o pastry lemon drops cookie. Dessert macaroon jelly beans tart cake cotton candy bonbon donut.Wafer cupcake topping jelly jel y-o bonbon cake. Candy canes jelly-o danishbrownie biscuit muffin caramels. Marshmallow powder chocolate bar liquorice tiramisu. Biscuit scuffle sweet donut candy canes brownie tart muffin.
+        </p>
+        <br>
 
-<!-- Page content -->
-<div class="content" style="max-width:1100px">
+        <p id="main-para-2" class="text">
+        Souffle bonbon sweet roll. Tootsie roll chocolate gummies toffee topping jelly donut. Apple pie carrot cake apple pie lollipop chocolate lollipop. Gummi bears sweet roll pastry cookie donut danish pu dding sweet roll brownie. Fruit cake sweet roll pie liquorice danish sesame snaps dessert jelly beans. Pie topping cupcakecaramels. Gingerbread gummies sugar plum powder biscuit jelly-o pastry lemon drops cookie. Dessert macaroon jelly beans tart cake cotton candy bonbon donut. Wafer cupcake topping jelly jelly-o bonbon cake. Candy canes jelly-o danish brownie biscuit muffin caramels. Marshmallow powder chocolate bar liquorice tira misu. Biscuit scuffle sweet donut candy canes brownie tart muffin.
+        </p>
+      </section>
 
-  <!-- About Section -->
-  <div class="row -padding-64" id="about">
-    <div class="w3-col m6 w3-padding-large w3-hide-small">
-     <img src="/w3images/tablesetting2.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+     
+      <aside id="main-aside" class="main-aside-container clearfix">
+        <div class="aside-img">
+          <figure class="aside-img">
+            <img src="img/kitty.jpg" "width="110" height="160" alt="Cat">
+          </figure>
+        </div>
+        <h3 id="aside-head" class="aside-head text">Title of the sidebar</h3>
+        <p id="aside-para" class="text">
+         Apple pie carrot cake apple pie lollipop chocolate lollipop. Gummi bears sweet roll  pastry cookie donut danish pudding sweet roll brownie.. 
+        </p>
+      </aside>
+
+      
+      <section id="sec-pic" class="section2" >
+        <h3 id="pic-head" class="text">Secondary Content Title</h3>
+        <div class="pic-container"></div>
+          <div class="pic-slide-container">
+            <figure>
+              <img src="img/kitty.jpg"  "width="160" height="130" alt="Cat">
+              <figcaption class="text">Image 1</figcaption>
+            </figure> 
+          </div>
+          <div class="pic-slide"> 
+            <figure>
+              <img src="img/kitty.jpg" "width="160" height="130" alt="Cat">
+              <figcaption class="text">Image 2</figcaption>
+            </figure>
+          </div>
+          <div class="pic-slide">
+            <figure>
+              <img src="img/kitty.jpg" "width="160" height="130" alt="Cat">
+              <figcaption class="text">Image 3</figcaption>
+            </figure>
+          </div>
+      </section>
+    </article>
+  </main>
+
+
+  <footer id="footer" class="footer" >
+    <div class="container">
+
+      
+      <section id="cr-sec" class="cr-sec">
+        <p id="footer-para" class="text">
+          <p>Copyright&copy;2022, All Rights Reserved.<p>
+        </p>
+      
+
+
+      
+      <section id="socials-sec" class="socials-sec" >
+        <nav class="footer-nav-container clearfix">
+          <ul class="footer-li">
+   <img src="img/facebook.png" 
+   <br>
+   <img src="img/twitter.png" 
+   <br>
+   <img src="img/youtube.png" 
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </section>
     </div>
-
-    <div class="-col m6 -padding-large">
-      <h1 class="-center">About Eatery</h1><br>
-      <h5 class="-center">Tradition since 1889</h5>
-      <p class="-large">The Catering was founded in 2000 by Mr. Smith this business has been running as a family joint ownership and we value our unity and teamwork to ensure our business is successfull .We only use <span class="w3-tag w3-light-grey">seasonal</span> ingredients.</p>
-      <p class="w3-large w3-text-grey w3-hide-medium">.</p>
-    </div>
-  </div>
-  
-  <hr>
-  
-  <!-- Menu Section -->
-  <div class="w3-row w3-padding-64" id="menu">
-    <div class="w3-col l6 w3-padding-large">
-      <h1 class="w3-center">Our Menu</h1><br>
-      <h4>Bread Basket</h4>
-      <p class="w3-text-grey">Assortment of fresh baked fruit breads and muffins 5.50</p><br>
-    
-      <h4>Honey Almond Granola with Fruits</h4>
-      <p class="w3-text-grey">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
-    
-      <h4>Belgian Waffle</h4>
-      <p class="w3-text-grey">Vanilla flavored batter with malted flour 7.50</p><br>
-    
-      <h4>Scrambled eggs</h4>
-      <p class="w3-text-grey">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
-    
-      <h4>Blueberry Pancakes</h4>
-      <p class="w3-text-grey">With syrup, butter and lots of berries 8.50</p>    
-    </div>
-    
-    <div class="w3-col l6 w3-padding-large">
-      <img src="/w3images/tablesetting.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
-    </div>
-  </div>
-
-  <hr>
-
-  <!-- Contact Section -->
-  <div class="w3-container w3-padding-64" id="contact">
-    <h1>Contact</h1><br>
-    <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
-    <p class="w3-text-blue-grey w3-large"><b>Catering Service, 42nd Living St, 43043 New York, NY</b></p>
-    <p>You can also contact us by contact us at facebook, phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
-}
-    <form action="/action_page.php" target="_blank">
-      <p><input class="-input -padding-16" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input -padding-16" type="number" placeholder="How many people" required name="People"></p>
-      <p><input class="-input -padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2017-11-16T20:00"></p>
-       <a href="#" class="fa fa-facebook"></a>
-<a href="#" class="fa fa-twitter"></a>
-      <p><input class="-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
-      <p><button class="-button w3-light-grey -section" type="submit">SEND MESSAGE</button></p>
-    </form>
-  </div>
-  
-<!-- End page content -->
-</div>
-
-<!-- Footer -->
-<footer class="-center -light-grey -padding-32">
-  
-</footer>
-
+  </footer>
 </body>
 </html>
