@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Final Assignment</title>
+
+	<script src="https://kit.fontawesome.com/9370306a71.js" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<meta charset="utf-8">
+	<meta name="Author" content="Mohamed Houssein">
+	<meta name="description" content="This is my Final Assignment">
+	<meta name="keywords" content="HTML, HTML5, Homework, Assignment, Final Assignment">
+</head>
+<body>
+	<body style="background: url('img/houndstooth-pattern.png')">
+	<div class="overlay-container loader-container">
+		<div class="loader-graph"></div>
+	</div>
+
+
+	<header>
+		<div class="logo spec-font">My Logo</div>
+
+		<nav class="main-nav-container desktop-nav">
+			<ul class="main-nav clearfix">
+				<li>
+					<a href="https://www.mylogo.com/home">HOME</a>
+				</li>
+				<li>
+					<a href="https://www.mylogo.com/about">ABOUT</a>
+				</li><li>
+					<a href="https://www.mylogo.com/scheduke">SCHEDULE</a>
+				</li>
+				<li>
+					<a href="https://www.mylogo.com/portfolio">PORTFOLIO</a>
+				</li>
+				<li>
+					<a href="https://www.mylogo.com/contact">CONTACT</a>
+				</li>
+			</ul>	
+		</nav>
+		
+		
+		<div class="mob-bars"></div>
+
+		<div class="mobile-nav-container clearfix">
+			<nav class="main-nav-container mobile-nav">
+				<ul class="main-nav">
+					<li>
+						<a href="https://www.mylogo.com/home">HOME</a>
+					</li>
+					<li>
+						<a href="https://www.mylogo.com/about">ABOUT</a>
+					</li>
+					<li>
+						<a href="https://www.mylogo.com/schedule">SCHEDULE</a>
+					</li>
+					<li>
+						<a href="https://www.mylogo.com/contact">CONTACT</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		
+	</header>
+
+	
+	<main class="main clearfix" id="main">
+
+		
+		<article class="col-main-article site-content">
+
+		
+			<section class="main-section">
+				<h2>ABOUT</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis rutrum mauris eu leo venenatis, ac suscipit lectus suscipit. Ut elementum sagittis leo, in varius ante volutpat vitae. Quisque tempor congue convallis. Morbi tristique metus posuere bibendum finibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec venenatis, orci ut tincidunt aliquet, velit dolor finibus tellus, vitae consequat neque purus in velit. In hac habitasse platea dictumst.
+				</p>
+				<br>
+				<p>
+					Nam non nunc leo. Fusce placerat ipsum nec ex dapibus, ut pretium urna fringilla. Duis lobortis a ex ac varius. Duis vitae efficitur libero. Fusce hendrerit dolor a felis aliquet, eget egestas lacus dictum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam rutrum nec magna vitae vulputate. Sed dapibus diam dui, vitae vestibulum eros volutpat quis. Integer quis dui tincidunt urna sollicitudin ultrices et sed leo. Integer finibus massa sed nisl viverra lacinia. Etiam in libero quis sapien posuere mattis. Duis pellentesque, nunc quis condimentum pulvinar, nulla justo malesuada risus, a varius nisi nisl ut dui. Proin eget euismod enim. 
+				</p>
+			</section>
+		
+			<aside id="img-aside">
+				<div class="pexels-sydney-bridge-img mobile-img">
+					<img src="img/sydney-bridge.jpg" alt="bridge" width="300" height="200">
+				</div>
+			</aside>
+			
+
+			
+			<section class="schedule-section">
+				<h2>SCHEDULE</h2>
+				<table class="sched-table">
+					<thead class="wht-row">
+						<tr>
+							<td>Time</td>
+							<td>Monday</td>
+							<td>Tuesday</td>
+							<td>Wednesday</td>
+							<td>Thursday</td>
+							<td>Friday</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr class="lg-row">
+							<td>09:00-11:00</td>
+							<td>Communications I</td>
+							<td>Client Services</td>
+							<td>Special Collections</td>
+							<td>Directed Research Seminar</td>
+							<td>Client Services</td>
+						</tr>
+						<tr>
+							<td>11:00-12:30</td>
+							<td>Reference I</td>
+							<td>Internet App</td>
+							<td>Library Software</td>
+							<td>French</td>
+							<td>Reference</td>
+						</tr>
+						<tr class="lg-row">
+							<td>2:00-3:00</td>
+							<td>Acquisitions</td>
+							<td>Cataloguing</td>
+							<td>Client Services</td>
+							<td>Emerging Library Tech</td>
+							<td>Library Software</td>
+						</tr>
+						<tr>
+							<td>3:30-5:30</td>
+							<td>French</td>
+							<td>French</td>
+							<td>Acquisitions</td>
+							<td>Subject Analysis</td>
+							<td>Internet App</td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+			
+
+			<section class="profile-form cleafix">
+				<div id="form-info">
+					<h2>EDIT PROFILE</h2>
+					<form id="form" action="submit.php" method="post">
+						<!--Name Input-->
+						<p class="form-elem">
+							<label for="name">Name:</label>
+							<input type="text" name="name" id="name" placeholder="Enter your name here" required>
+						</p>
+
+						
+						<p class="form-elem"> 
+							<label for="email">Email:</label>
+							<input type="email" name="email" id="email" placeholder="JohnDoe@outlook.com" required>
+						</p>
+
+						
+						<p class="form-elem">
+							<label for="address">Address:</label>
+							<input type="text" name="address" id="address" placeholder="Enter your address here" required>
+						</p>
+
+						
+						<p class="form-elem">
+							<label for="city">City:</label>
+							<input type="text" name="city" id="city" placeholder="Enter your city here" required>
+						</p>
+
+						
+						<p class="form-elem">
+							<label for="province">Province:</label>
+							<select name="province" id="province" required>
+								<option value="">Select Province</option>
+								<option value="BC">British Columbia</option>
+								<option value="AB">Alberta</option>
+								<option value="SK">Saskatchewan</option>
+								<option value="MB">Manitoba</option>
+								<option value="ON">Ontario</option>
+								<option value="YT">Yukon</option>
+								<option value="NT">Northwest Territories</option>
+								<option value="NU">Nunavut</option>
+								<option value="NB">New Brunswick</option>
+								<option value="NS">Nova Scotia</option>
+								<option value="PE">Prince Edward Island</option>
+								<option value="NL">Newfoundland and Labrador</option>
+							</select>
+						</p>
+
+						
+						<p class="form-elem">
+							<label for="postal">Postal Code:</label>
+							<input type="text" pattern="[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9]" value="" name="postal" id="postal" placeholder="Q6Q 13O" required>
+						</p>
+
+						
+						<button type="submit" id="submit">SUBMIT</button>
+					</form>
+				</div>
+			</section>
+
+			
+			<h2 class="profile-h2">PROFILE INFO</h2>
+			<section class="profile-transf mobile-transf clearfix">
+				<div id="fresults">
+					<img src="img/icon.png" alt="Profile">
+
+					
+					<p>"John Doe"</p>
+
+					<br>
+
+				
+					<p>JohnDoe@algonquincollege.com</p>
+
+					<br>
+
+					
+					<p>1385 Woodroffe Ave, Nepean</p>
+
+					<br>
+
+					<p>ON, K2G 1V8<p>
+
+					<i class="far fa-envelope"></i>
+				</div>	
+			</section>
+			
+		</article>
+		
+	</main>
+	
+
+	
+	<footer class="footer" id="footer">
+		<div class="footer-container clearfix">
+
+			<!--Quick Links Code Begins Here-->
+			<section class="col-footer quick-links">
+				<h4>QUICK LINKS</h4>
+				<nav id="quick-nav">
+					<ul>
+						<li>
+							<a href="https://www.mylogo.com/schedule">SCHEDULE</a>
+						</li>
+						<li>
+							<a href="https://www.mylogo.com/about">ABOUT</a>
+						</li>
+						<li>
+							<a href="https://www.mylogo.com/portfolio">PORTFOLIO</a>
+						</li>
+						<li>
+							<a href="https://www.mylogo.com/contact">CONTACT</a>
+						</li>
+					</ul>
+				</nav>
+			</section>
+			
+
+			
+			<section class="col-footer social-media" id="social-media">
+				<h4>FOLLOW US</h4>
+				<nav id="socials-nav">	
+					<ul>
+						
+						<li id="socials-li">
+							<div id="facebook-li" class="col-footer">
+								<a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+							</div>
+						</li>
+
+					
+						<li>
+							<div id="youtube-li" class="col-footer">
+								<a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+							</div>
+						</li>
+
+						<li>
+							<div id="twitter-li" class="col-footer">
+								<a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+							</div>
+						</li>
+					</ul>
+				</nav>
+			</section>
+			
+
+			
+			<section class="col-footer footer-address">
+				<h4>ADDRESS</h4>
+				<address>
+					<p>1385 Woodroffe Ave.</p>
+					<p>Nepean, ON  K2G 1V8</p>
+					<p>Canada</p>
+				</address>
+			</section>
+			
+		</div>
+	</footer>
+	
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	
+	<script type="text/javascript" src="js/script.js"></script>
+
+	
+
+</body>
+</html>
