@@ -51,7 +51,6 @@ table {
 	border-spacing: 0;
 }
 
-/*CSS clearfix*/
 
 .clearfix:after {
 	content: "";
@@ -167,7 +166,7 @@ h4 {
 }
 
 
-/*Mobile Menu Bar Icon*/
+
 .mob-bars {
 	float: right;
 
@@ -253,7 +252,6 @@ body {
 
 
 
-/*About and Image Aside*/
 
 .main-section {
 	float: left;
@@ -275,7 +273,6 @@ body {
 
 
 
-/*Schedule Table*/
 
 .schedule-section {
 	width: 100%;
@@ -313,7 +310,6 @@ table, th, td {
 
 
 
-/*Profile Information Styles*/
 
 .profile-form {
 	float: left;
@@ -404,7 +400,6 @@ input, select {
 	font-size: 150%;
 }
 
-/*Footer Styles*/
 
 .footer-container {
 	width: 100%;
@@ -522,7 +517,6 @@ input, select {
 
 
 
-    /* Small Devices, Tablets */
     @media only screen and (min-width : 768px) {
 
     	header, main, footer {
